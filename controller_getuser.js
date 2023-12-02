@@ -9,7 +9,6 @@ async function getUserWithToken() {
 
   const targetURL = 'https://asia-southeast2-gis-project-401902.cloudfunctions.net/GetUserWithToken';
 
-  // Set up headers with the token
   const myHeaders = new Headers();
   myHeaders.append('Login', token);
 
